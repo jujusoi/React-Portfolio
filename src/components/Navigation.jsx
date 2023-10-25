@@ -1,4 +1,4 @@
-
+import { Link, useLocation } from 'react-router-dom';
 import navItems from './data/navigation.json';
 
 export default function Navigation() {
@@ -6,9 +6,14 @@ export default function Navigation() {
         <>
         <div id='nav-list'>
         {navItems.map(obj => (
-            <div key={obj.id}>
-                <a href={obj.path}>{obj.name}</a>
-            </div>
+            <ul key={obj.id}>
+                <li>
+                    <Link
+                        to={obj.path}>
+                        {obj.name}
+                    </Link>
+                </li>
+            </ul>
         ))}
         </div>
         </>
