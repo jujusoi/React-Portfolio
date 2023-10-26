@@ -2,7 +2,11 @@
 export default function Footer() {
     return (
         <>
-            <h1>This is a footer</h1>
+        <section id="footer-sect">
+            <div id="footer-div">
+                <p>2023</p>
+            </div>
+        </section>
         </>
     )
 }

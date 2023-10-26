@@ -7,7 +7,7 @@
     {
         "id": 2,
         "name": "Resume",
-        "path": "/resume"
+        "path": "/Resume"
     },
     {
         "id": 3,
@@ -16,7 +16,7 @@
     },
     {
         "id": 4,
-        "name": "Contacts",
-        "path": "/contacts"
+        "name": "Contact",
+        "path": "/Contact"
     }
 ]
