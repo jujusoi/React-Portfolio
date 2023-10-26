@@ -7,6 +7,7 @@ import './index.css';
 import Projects from './components/Project.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import ResumePage from './pages/Resume.jsx';
+import Contacts from './pages/Contacts.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/Contact',
-        element: <h3>Contact</h3>
+        element: <Contacts />
       },
       {
         path: '/Resume',
