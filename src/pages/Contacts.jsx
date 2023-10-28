@@ -24,11 +24,11 @@ export default function Contacts() {
                         <div id='input-nne-hold' style={{ height: '25%', display: 'flex', justifyContent: 'space-between'}}>
                             <div id='name-hold' style={{display: 'flex', flexDirection: 'column', width: '35%'}}>
                                 <label htmlFor="name">Your Name</label>
-                                <input type="text" id="name" name="name" style={{height: '40%', border: '1px solid rgba(118, 118, 118, .75)'}} />
+                                <input type="text" id="name" name="name" style={{height: '40%', border: '1px solid rgba(118, 118, 118, .75)', paddingLeft: 12}} placeholder='Name' />
                             </div>
                             <div id='email-hold' style={{display: 'flex', flexDirection: 'column', width: '60%'}}>
                                 <label htmlFor="email">Your Email</label>
-                                <input type="email" id="email" name="email" style={{height: '40%', border: '1px solid rgba(118, 118, 118, .75)'}} />
+                                <input type="email" id="email" name="email" style={{height: '40%', border: '1px solid rgba(118, 118, 118, .75)',  paddingLeft: 12}} placeholder='Email' />
                             </div>
                         </div>
                         <div id='input-message-hold' style={{display: 'flex', flexDirection: 'column', height: '75%'}}>
@@ -48,7 +48,7 @@ export default function Contacts() {
                     <br />
                     <div id='platforms'>
                         <h3>Other Platforms</h3>
-                        <div id='platform-holder'>
+                        <div id='platform-holder' style={{height: 70}}>
                         <Platform platformLink={'https://github.com/jujusoi'} hoverBool={'gh'} platformIcon={'/icons/githubicon.png'} platformAlt={'GitHub'} increaseSize={increaseSize} hovered={hovered} />
 
                         <Platform platformLink={'https://www.google.com'} hoverBool={'li'} platformIcon={'/icons/linkedinicn.png'} platformAlt={'LinkedIn'} increaseSize={increaseSize} hovered={hovered} />
