@@ -67,6 +67,12 @@ img {
 .ptfm-img {
   margin-right: 15px;
 }
+.project-head {
+  transition: 200ms ease-in-out;
+}
+.project-para {
+  transition: 600ms ease-in-out;
+}
 
 @media screen and (max-width: 600px) {
   #contacts-sect {
@@ -94,6 +100,9 @@ img {
   }
   #contact-info {
     text-align: center;
+  }
+  #ind-proj-hold {
+    width: 100% !important;
   }
 }
 
