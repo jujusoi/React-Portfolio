@@ -9,13 +9,13 @@ import './App.css'
 function App() {
   return ( 
     <>
-        <header>
+        <header style={{width: '100%'}}>
           <Header />
         </header>
-        <main>
+        <main style={{width: '100%', display: 'flex', justifyContent: 'center'}} >
           <Outlet />
         </main>
-        <footer>
+        <footer style={{width: '100%'}}>
           <Footer />
         </footer>
     </>

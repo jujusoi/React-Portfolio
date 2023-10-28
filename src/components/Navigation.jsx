@@ -5,16 +5,16 @@ export default function Navigation() {
     return ( 
         <>
         <div id='nav-list'>
+            <ul style={{listStyle: 'none', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', paddingLeft: 0 }}>
         {navItems.map(obj => (
-            <ul key={obj.id}>
-                <li>
+                <li key={obj.id}>
                     <Link
                         to={obj.path}>
                         {obj.name}
                     </Link>
                 </li>
-            </ul>
         ))}
+            </ul>
         </div>
         </>
     )

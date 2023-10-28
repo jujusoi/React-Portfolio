@@ -59,6 +59,44 @@ img {
   transition: ease-in-out 200ms;
 }
 
+#platform-holder {
+  display: flex;
+  flex-direction: row;
+}
+
+.ptfm-img {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  #contacts-sect {
+    flex-direction: column !important;
+  }
+  #form-hold, #info-hold {
+    width: auto !important;
+  }
+  #platforms {
+    text-align: center;
+  }
+  #platform-holder {
+    justify-content: center;
+  }
+  #input-form {
+    margin-top: 10px;
+  }
+  #form-desc-hold {
+    text-align: center;
+  }
+  #input-form {
+    height: 220px !important;
+    width: 100% !important;
+    margin: 25px auto;
+  }
+  #contact-info {
+    text-align: center;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
