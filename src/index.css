@@ -114,6 +114,20 @@ img {
   #ind-proj-hold {
     width: 100% !important;
   }
+  #nm-img {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #basicinf-wrap {
+    margin-left: auto !important;
+    width: 100%;
+  }
+  #expss-wrap {
+    flex-direction: column !important;
+  }
+  #pass-int, #exp-skills {
+    width: 100% !important;
+  }
 }
 
 @media (prefers-color-scheme: light) {
