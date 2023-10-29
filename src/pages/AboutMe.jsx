@@ -12,7 +12,7 @@ export default function AboutMe() {
     <section id="aboutme-sect" style={{width: '80%'}}>
         <div id="name-intro" style={{display: "flex", flexDirection: 'column'}}>
             <div id="nm-img" style={{display: 'flex'}}>
-                <img style={{width: 175, height: 175}} src="https://i.guim.co.uk/img/media/43352be36da0eb156e8551d775a57fadba8ae6d7/0_0_1440_864/master/1440.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1829611852af3ffc6460b4068e20bcbc" alt="pfp" />
+                <img style={{width: 175, height: 175, borderRadius: 100}} src="https://i.guim.co.uk/img/media/43352be36da0eb156e8551d775a57fadba8ae6d7/0_0_1440_864/master/1440.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1829611852af3ffc6460b4068e20bcbc" alt="pfp" />
                 <div id="basicinf-wrap" style={{marginLeft: 30}}>
                     <h1 id="name" style={{marginTop: 'auto', marginBottom: 'auto'}}>James McDonald</h1>
                     <h2 id="intro">Full Stack Web Developer</h2>
@@ -39,8 +39,8 @@ export default function AboutMe() {
         </div>
         </div>
         <br />
-        <div id="cta">
-            <a onClick={smoothScroll}>Explore my website further</a>
+        <div id="cta" style={{textAlign: "center", display: 'none'}}>
+            <a onClick={smoothScroll}>Back to top</a>
         </div>
     </section>
         </>
