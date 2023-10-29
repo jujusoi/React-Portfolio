@@ -10,8 +10,12 @@ export default function Portfolio() {
             setHovered(id);
         } else {
             setHovered(null);
-        }
-    }
+        };
+    };
+
+    const takeToApp = (application) => {
+        window.open(application);
+    };
 
     return (
         <>
@@ -19,10 +23,11 @@ export default function Portfolio() {
                 <div id="main-port-hold">
                     <div id="port-text-holder" style={{height: '15%'}}>
                         <h2>Portfolio</h2>
-                        <p>Here are some of my projects!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure d</p>
                     </div>
-                    <div id="port-projects-holder" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap', height: '85%', padding: 10}}>
-                        <Projects increaseSize={increaseSize} hovered={hovered} />
+                    <br />
+                    <div id="port-projects-holder" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap', height: '85%', padding: 10, width: '85%', margin: 'auto'}}>
+                        <Projects increaseSize={increaseSize} hovered={hovered} takeToApp={takeToApp} />
                     </div>
                 </div>
             </section>

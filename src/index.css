@@ -74,6 +74,16 @@ img {
   transition: 600ms ease-in-out;
 }
 
+.proj-class:first-child, .proj-class:last-child {
+  width: auto !important;
+}
+
+@media screen and (max-width: 970px) {
+  #ind-proj-hold {
+    width: 43% !important;
+  }  
+}
+
 @media screen and (max-width: 600px) {
   #contacts-sect {
     flex-direction: column !important;
