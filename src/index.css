@@ -81,7 +81,19 @@ img {
 @media screen and (max-width: 970px) {
   #ind-proj-hold {
     width: 43% !important;
-  }  
+  }
+  #prof-down {
+    flex-direction: column-reverse;
+  }
+  #resume-hold, #prof-hold {
+    width: 100% !important;
+  }
+  #resume-hold, #codingprof-head {
+    text-align: center;
+  }
+  #prof-wrap {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -131,6 +143,9 @@ img {
   }
   #cta {
     display: block !important;
+  }
+  #port-projects-holder {
+    width: 93% !important;
   }
 }
 

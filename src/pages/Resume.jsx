@@ -4,14 +4,15 @@ import ResumeDownload from "../components/ResumeDownload"
 export default function ResumePage() {
     return (
         <>
-            <section id="resume-sect">
-                <div id="prof-down">
-                <div id="resume-hold">
+            <section id="resume-sect" style={{width: '80%'}}>
+                <div id="prof-down" style={{display: "flex", justifyContent: 'space-evenly'}}>
+                <div id="resume-hold" style={{width: '30%'}}>
                     <ResumeDownload />
                 </div>
-                <div id="prof-hold">
-                    <h3>Coding Proficiencies</h3>
-                    <div id="front-pro">
+                <div id="prof-hold"  style={{width: '60%'}}>
+                    <h3 id="codingprof-head">Coding Proficiencies</h3>
+                    <div id="prof-wrap" style={{display: 'flex'}}>
+                    <div id="front-pro" style={{marginRight: 20}}>
                         <h4>Front end</h4>
                         <ul>
                             <li>HTML</li>
@@ -27,7 +28,12 @@ export default function ResumePage() {
                             <li>MySql</li>
                         </ul>
                     </div>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure d</p>
+                    </div>
                 </div>
+                
                 </div>
             </section>
         </>
