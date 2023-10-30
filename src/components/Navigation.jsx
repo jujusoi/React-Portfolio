@@ -4,7 +4,7 @@ import navItems from './data/navigation.json';
 export default function Navigation() {
     return ( 
         <>
-        <div id='header-wrap' style={{height: 85, display: 'flex', flexDirection: 'row-reverse', justifyContent: 'center', alignItems: 'center'}}>
+        <div id='header-wrap' style={{borderBottom: '#454545 2px solid', height: 85, display: 'flex', flexDirection: 'row-reverse', justifyContent: 'center', alignItems: 'center'}}>
         <div id='nav-list' style={{width: '65%'}}>
             <ul style={{listStyle: 'none', display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', paddingLeft: 0 }}>
         {navItems.map(obj => (

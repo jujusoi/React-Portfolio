@@ -85,7 +85,7 @@ img {
   #prof-down {
     flex-direction: column-reverse;
   }
-  #resume-hold, #prof-hold, #nav-list, #navigation-sect {
+  #resume-hold, #prof-hold, #nav-list, #navigation-sect, #footer-sect {
     width: 100% !important;
   }
   #resume-hold, #codingprof-head {

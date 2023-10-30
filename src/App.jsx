@@ -15,7 +15,7 @@ function App() {
         <main style={{width: '100%', display: 'flex', justifyContent: 'center'}} >
           <Outlet />
         </main>
-        <footer style={{width: '100%'}}>
+        <footer style={{width: '100%',  display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <Footer />
         </footer>
     </>
