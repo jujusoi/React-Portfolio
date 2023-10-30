@@ -85,7 +85,7 @@ img {
   #prof-down {
     flex-direction: column-reverse;
   }
-  #resume-hold, #prof-hold {
+  #resume-hold, #prof-hold, #nav-list, #navigation-sect {
     width: 100% !important;
   }
   #resume-hold, #codingprof-head {
@@ -93,6 +93,9 @@ img {
   }
   #prof-wrap {
     justify-content: center;
+  }
+  #nav-icon {
+    display: none !important;
   }
 }
 
@@ -146,6 +149,9 @@ img {
   }
   #port-projects-holder {
     width: 93% !important;
+  }
+  #cover-img-wrap {
+    height: 180px !important;
   }
 }
 

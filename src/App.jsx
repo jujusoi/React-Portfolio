@@ -9,7 +9,7 @@ import './App.css'
 function App() {
   return ( 
     <>
-        <header style={{width: '100%'}}>
+        <header style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Header />
         </header>
         <main style={{width: '100%', display: 'flex', justifyContent: 'center'}} >
