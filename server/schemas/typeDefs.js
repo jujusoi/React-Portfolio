@@ -9,6 +9,10 @@ const typeDefs = `
     type Query {
         messages: [Message]
     }
+
+    type Mutation {
+        addMessage(messageText: String!, messagerEmail: String!, messagerName: String!): Message
+    }
 `;
 
 module.exports = typeDefs;

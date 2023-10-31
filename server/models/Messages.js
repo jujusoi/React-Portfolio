@@ -5,7 +5,7 @@ const messageSchema = new Schema({
         type: String,
         required: true,
         minlength: 1,
-        maxlength: 1000,
+        maxlength: 2000,
         trim: true,
     },
     messagerName: {
