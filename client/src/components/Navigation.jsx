@@ -23,7 +23,7 @@ export default function Navigation() {
             </ul>
         </div>
         <div id='nav-icon' style={{ width: '35%', display: 'block'}}>
-            <img style={{width: 40}} src="/icons/githubicon.png" alt="header icon" />
+            <img style={{width: 40, borderRadius: 100}} src="/icons/pfp.jpg" alt="header icon" />
         </div>
         </div>
         

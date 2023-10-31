@@ -30,9 +30,9 @@ export default function ResumePage() {
                         <h4>Back end</h4>
                         <ul>
                             <li>Node.js</li>
-                            <li>RESTful API</li>
                             <li>Express.js</li>
                             <li>MySql</li>
+                            <li>Sequelize</li>
                             <li>NoSql</li>
                             <li>MongoDb</li>
                             <li>Mongoose</li>
