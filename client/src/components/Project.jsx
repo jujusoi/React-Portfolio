@@ -9,7 +9,7 @@ export default function Projects({ increaseSize, hovered, takeToApp }) {
         <>
         {projectInfo.map(projects => (
             <div className='proj-class' id='ind-proj-hold' style={{ position: 'relative', width: '35%', height: '225px', marginBottom: 20}} key={projects.id} onMouseEnter={() => increaseSize(true, projects.id)} onMouseLeave={() => increaseSize(false)}>
-                <img style={{ width: hovered === projects.id ? '101%' : '100%', height: hovered === projects.id ? '101%' : '100%', filter: hovered === projects.id ? 'brightness(0.8)' : 'none', minWidth: 190, borderRadius: 10}} src={projects.img} alt={projects.description} onClick={() => takeToApp(projects.application)}/>
+                <img style={{ width: hovered === projects.id ? '101%' : '100%', height: hovered === projects.id ? '101%' : '100%', filter: hovered === projects.id ? 'brightness(0.65)' : 'none', minWidth: 190, borderRadius: 10}} src={projects.img} alt={projects.description} onClick={() => takeToApp(projects.application)}/>
                 <div className='overlay' style={{ position: 'absolute', top: 0, left: 0, display: 'flex', width: '100%', height: '100%', alignItems: 'baseline'}}>
                     <div style={{paddingLeft: 20, width: '90%'}}>
                         <Link to={projects.application} target='_blank'>

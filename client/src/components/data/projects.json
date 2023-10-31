@@ -1,55 +1,55 @@
 [
     {
         "id": 1,
-        "title": "Project 1",
-        "description": "This is project 1",
-        "img": "https://www.dailypaws.com/thmb/d3vNqnLf6Vqjz8oz5XObGCQxms4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tiny-white-kitten-873941684-2000-0bac130389984aba9751de5e5e50d25f.jpg",
-        "application": "www.example.com",
-        "github": "https://www.github.com"
+        "title": "Social Network API",
+        "description": "",
+        "img": "/icons/socialmediaapi.PNG",
+        "application": "https://watch.screencastify.com/v/1IpV1PvDL7o5TcWo9vjP",
+        "github": "https://github.com/jujusoi/JM-Social-Network-API"
     },
     {
         "id": 2,
-        "title": "Project 2",
-        "description": "This is project 2",
-        "img": "https://i.pinimg.com/564x/32/f2/43/32f24381b05fcf53d8088c98963fe326.jpg",
-        "application": "www.google.com",
-                "github": "https://www.github.com"
+        "title": "ReadMi",
+        "description": "A fullstack application that utilizes MySql, Node.js, Express.js, and Handlebars.js to allow users to interact with a database of books.",
+        "img": "/icons/ReadMi-Demo.gif",
+        "application": "https://dry-savannah-12816-a8270f4eeafb.herokuapp.com/home",
+                "github": "https://github.com/jujusoi/G3-ReadMi"
 
     },
     {
         "id": 3,
-        "title": "Project 2",
-        "description": "This is project 2",
-        "img": "https://i.pinimg.com/564x/32/f2/43/32f24381b05fcf53d8088c98963fe326.jpg",
-        "application": "www.google.com",
-                "github": "https://www.github.com"
+        "title": "Tech Blog",
+        "description": "A fullstack application that utilizes MySql, Node.js, Express.js, and Handlebars.js to allow users to create an account and interact with others.",
+        "img": "/icons/techblog.PNG",
+        "application": "https://young-fjord-62877-0480c683a0c0.herokuapp.com/home",
+                "github": "https://github.com/jujusoi/JM-MVC-Tech-Blog"
 
     },
     {
         "id": 4,
-        "title": "Project 2",
-        "description": "This is project 2",
-        "img": "https://i.pinimg.com/564x/32/f2/43/32f24381b05fcf53d8088c98963fe326.jpg",
-        "application": "www.google.com",
-                "github": "https://www.github.com"
+        "title": "Recipe Radar",
+        "description": "A frontend application that utilizes Node.js and a food API to allow users to search for recipes based on ingredients they have on hand.",
+        "img": "/icons/reciperadar.png",
+        "application": "https://jujusoi.github.io/Project-1/index.html",
+                "github": "https://github.com/jujusoi/Project-1"
 
     },
     {
         "id": 5,
-        "title": "Project 2",
-        "description": "This is project 2",
-        "img": "https://i.pinimg.com/564x/32/f2/43/32f24381b05fcf53d8088c98963fe326.jpg",
-        "application": "www.google.com",
-                "github": "https://www.github.com"
+        "title": "Weather Dashboard",
+        "description": "A frontend application that utilizes Node.js and a weather API to allow a user to search for the 5 day forecast of a city.",
+        "img": "/icons/weather.PNG",
+        "application": "https://jujusoi.github.io/JM-Weather-Dashboard/",
+                "github": "https://github.com/jujusoi/JM-Weather-Dashboard"
 
     },
     {
         "id": 6,
-        "title": "Project 2",
-        "description": "This is project 2",
-        "img": "https://i.pinimg.com/564x/32/f2/43/32f24381b05fcf53d8088c98963fe326.jpg",
-        "application": "www.google.com",
-                "github": "https://www.github.com"
+        "title": "Employee Tracker",
+        "description": "",
+        "img": "/icons/employee.PNG",
+        "application": "https://watch.screencastify.com/v/DpvCwY4dAtIOuuGkVfs8",
+                "github": "https://github.com/jujusoi/JM-Employee-Tracker"
 
     }
 ]

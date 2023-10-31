@@ -26,7 +26,7 @@ export default function Footer() {
                 <div id='footer-plfs'>
                     <Platform platformLink={'https://github.com/jujusoi'} hoverBool={'gh'} platformIcon={'/icons/githubicon.png'} platformAlt={'GitHub'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
 
-                    <Platform platformLink={'https://www.google.com'} hoverBool={'li'} platformIcon={'/icons/linkedinicn.png'} platformAlt={'LinkedIn'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
+                    <Platform platformLink={'https://www.linkedin.com/in/james-mcdonald-20b20b299/'} hoverBool={'li'} platformIcon={'/icons/linkedinicn.png'} platformAlt={'LinkedIn'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
 
                     <Platform platformLink={'https://stackoverflow.com/users/22805059/jujusoi'} hoverBool={'so'} platformIcon={'/icons/stackicon.png'} platformAlt={'Stack Overflow'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
                 </div>

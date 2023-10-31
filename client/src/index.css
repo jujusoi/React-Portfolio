@@ -89,6 +89,9 @@ img {
 .proj-class:first-child, .proj-class:last-child {
   width: auto !important;
 }
+.proj-class p {
+  font-size: 13px;
+}
 
 @media screen and (max-width: 970px) {
   #ind-proj-hold {
