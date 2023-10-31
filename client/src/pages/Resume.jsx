@@ -1,11 +1,13 @@
 
-import ResumeDownload from "../components/ResumeDownload"
+import ResumeDownload from "../components/ResumeDownload";
+import BackToTop from "../components/BackToTop";
 
 export default function ResumePage() {
     return (
         <>
             <section id="resume-sect" style={{width: '80%'}}>
                 <div id="prof-down" style={{display: "flex", justifyContent: 'space-evenly'}}>
+                <BackToTop />
                 <div id="resume-hold" style={{width: '30%'}}>
                     <ResumeDownload />
                 </div>
@@ -33,7 +35,6 @@ export default function ResumePage() {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure d</p>
                     </div>
                 </div>
-                
                 </div>
             </section>
         </>

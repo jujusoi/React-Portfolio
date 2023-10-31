@@ -1,12 +1,6 @@
-
+import BackToTop from "../components/BackToTop"
 
 export default function AboutMe() {
-
-    const smoothScroll = () => {
-        const target = document.querySelector('#nav-list');
-        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    };
-
     return (
         <>
     <section id="aboutme-sect" style={{width: '80%'}}>
@@ -38,10 +32,7 @@ export default function AboutMe() {
             </div>
         </div>
         </div>
-        <br />
-        <div id="cta" style={{textAlign: "center", display: 'none'}}>
-            <a onClick={smoothScroll}>Back to top</a>
-        </div>
+        <BackToTop />
     </section>
         </>
     )

@@ -1,4 +1,5 @@
 import Navigation from "./Navigation"
+import { useEffect, useState } from "react";
 
 export default function Header() {
     return (

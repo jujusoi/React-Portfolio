@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import Platform from '../components/Platform.jsx';
 import { useMutation } from '@apollo/client';
 
+import BackToTop from '../components/BackToTop.jsx';
+
 import { ADD_MESSAGE } from '../utils/mutation.js';
 
 export default function Contacts() {
@@ -94,7 +96,7 @@ export default function Contacts() {
     return (
         <>
             <section id='contacts-sect' style={{width: "80%", display:'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
-                <div id='form-hold' style={{width: '65%', padding: '10px 5px', display: 'flex', flexDirection: 'column'}}>
+                <div id='form-hold' style={{width: '65%', padding: '10px 5px', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                     <div id='form-desc-hold' style={{ display: 'flex', flexDirection: 'column', height: '30%', width: '80%'}}>
                         <h3 style={{marginBottom: 5}}>Got any questions?</h3>
                         <p style={{margin: 0}}>
@@ -133,7 +135,7 @@ export default function Contacts() {
                     <br />
                     <div id='platforms'>
                         <h3>Other Platforms</h3>
-                        <div id='platform-holder' style={{height: 70}}>
+                        <div id='platform-holder' style={{height: 57}}>
                         <Platform platformLink={'https://github.com/jujusoi'} hoverBool={'gh'} platformIcon={'/icons/githubicon.png'} platformAlt={'GitHub'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
 
                         <Platform platformLink={'https://www.google.com'} hoverBool={'li'} platformIcon={'/icons/linkedinicn.png'} platformAlt={'LinkedIn'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
@@ -141,6 +143,7 @@ export default function Contacts() {
                         <Platform platformLink={'https://stackoverflow.com/users/22805059/jujusoi'} hoverBool={'so'} platformIcon={'/icons/stackicon.png'} platformAlt={'Stack Overflow'} increaseSize={increaseSize} hovered={hovered} bigSize={47} smallSize={50} />
                         </div>
                     </div>
+                    <BackToTop />
                 </div>
             </section>
         </>

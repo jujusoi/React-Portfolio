@@ -11,7 +11,7 @@ const client = new ApolloClient({
 });
 
 function App() {
-  return ( 
+  return (
     <ApolloProvider client={client}>
     <header style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Header />

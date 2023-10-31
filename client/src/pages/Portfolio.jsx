@@ -1,5 +1,6 @@
 import Projects from "../components/Project";
 import { useState } from 'react';
+import BackToTop from "../components/BackToTop";
 
 export default function Portfolio() {
 
@@ -29,6 +30,7 @@ export default function Portfolio() {
                     <div id="port-projects-holder" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', flexWrap: 'wrap', height: '85%', padding: 10, width: '85%', margin: 'auto'}}>
                         <Projects increaseSize={increaseSize} hovered={hovered} takeToApp={takeToApp} />
                     </div>
+                    <BackToTop />
                 </div>
             </section>
         </>
