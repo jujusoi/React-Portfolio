@@ -1,11 +1,11 @@
 [build]
   base = "client"
-  publish = "dist/build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "14"
 
 [[redirects]]
-  from = "/api/*"
+  from = "/server/*"
   to = "/server/:splat"
   status = 200
