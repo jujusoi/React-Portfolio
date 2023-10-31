@@ -5,6 +5,10 @@ const typeDefs = `
         messagerName: String
         messagerEmail: String
     }
+
+    type Query {
+        messages: [Message]
+    }
 `;
 
 module.exports = typeDefs;

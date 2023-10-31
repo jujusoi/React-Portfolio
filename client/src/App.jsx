@@ -1,15 +1,19 @@
-import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Project from './components/Project'
-import reactLogo from './assets/react.svg'
 import './App.css'
+
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: '/graphql',
+  cache: new InMemoryCache(),
+});
 
 function App() {
   return ( 
-    <>
-        <header style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+    <ApolloProvider client={client}>
+    <header style={{width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
           <Header />
         </header>
         <main style={{width: '100%', display: 'flex', justifyContent: 'center'}} >
@@ -18,8 +22,8 @@ function App() {
         <footer style={{width: '100%',  display: 'flex', alignItems: 'center', flexDirection: 'column'}}>
           <Footer />
         </footer>
-    </>
-  )
-}
+    </ApolloProvider>
+  );
+};
 
-export default App
+export default App;
