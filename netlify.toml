@@ -1,6 +1,6 @@
 [build]
   base = "client"
-  publish = "/build"
+  publish = "dist/build"
 
 [build.environment]
   NODE_VERSION = "14"
