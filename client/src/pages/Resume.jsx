@@ -20,19 +20,27 @@ export default function ResumePage() {
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>React</li>
+                            <li>Bootstrap</li>
+                            <li>Handlebars</li>
                         </ul>
                     </div>
                     <div id="back-pro">
                         <h4>Back end</h4>
                         <ul>
                             <li>Node.js</li>
-                            <li>Express</li>
+                            <li>RESTful API</li>
+                            <li>Express.js</li>
                             <li>MySql</li>
+                            <li>NoSql</li>
+                            <li>MongoDb</li>
+                            <li>Mongoose</li>
                         </ul>
                     </div>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure d</p>
+                        <p>With relevance to the aforementioned, I am also experienced with the high-level programming language 'Lua' for miscellaneous purposes; a codebase that thrives in digital environments that require problem solving.</p>
                     </div>
                 </div>
                 </div>

@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Social Network API",
-        "description": "",
+        "description": "Backend application",
         "img": "/icons/socialmediaapi.PNG",
         "application": "https://watch.screencastify.com/v/1IpV1PvDL7o5TcWo9vjP",
         "github": "https://github.com/jujusoi/JM-Social-Network-API"
@@ -46,7 +46,7 @@
     {
         "id": 6,
         "title": "Employee Tracker",
-        "description": "",
+        "description": "Backend application",
         "img": "/icons/employee.PNG",
         "application": "https://watch.screencastify.com/v/DpvCwY4dAtIOuuGkVfs8",
                 "github": "https://github.com/jujusoi/JM-Employee-Tracker"
