@@ -13,7 +13,7 @@ export default function ResumeDownload() {
         <>
             <h2>Download my resume</h2>
             <p>Click on the image below</p>
-            <Link to="/files/JMCurriculumVitae.docx" target="_blank" download>
+            <Link to="/files/JMCurriculumVitae - Interactive.pdf" target="_blank" download>
                 <img width={size} height={250} src="/icons/resume.PNG" alt="Resume" onMouseEnter={() => mouseEnter(true)} onMouseLeave={() => mouseEnter(false)} style={{borderRadius: 10}}/>
             </Link>
         </>

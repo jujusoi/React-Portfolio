@@ -40,7 +40,7 @@ export default function ResumePage() {
                     </div>
                     </div>
                     <div>
-                        <p>With relevance to the aforementioned, I am also experienced with the high-level programming language 'Lua' for miscellaneous purposes; a codebase that thrives in digital environments that require problem solving.</p>
+                        <p>Unrelated to web development, I am also experienced with the high-level programming language 'Lua' for miscellaneous purposes.</p>
                     </div>
                 </div>
                 </div>

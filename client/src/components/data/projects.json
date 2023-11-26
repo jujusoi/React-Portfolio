@@ -36,11 +36,11 @@
     },
     {
         "id": 5,
-        "title": "Weather Dashboard",
-        "description": "A frontend application that utilizes Node.js and a weather API to allow a user to search for the 5 day forecast of a city.",
-        "img": "/icons/weather.PNG",
-        "application": "https://jujusoi.github.io/JM-Weather-Dashboard/",
-                "github": "https://github.com/jujusoi/JM-Weather-Dashboard"
+        "title": "Vinterview",
+        "description": "A large full-stack MERN application that utilizes NoSQL, Mongoose, Apollo, GraphQL and React to allow users to filter job listings and initiate one-on-one conversations with employers.",
+        "img": "/icons/vinterview.gif",
+        "application": "https://vinterview-521cb3af9850.herokuapp.com/",
+        "github": "https://github.com/jujusoi/Vinterview/"
 
     },
     {
